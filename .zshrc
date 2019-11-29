@@ -52,6 +52,7 @@ alias la='ls -aG'
 alias ll='ls -lG'
 alias vz='vim ~/work/dotfiles/zsh/.zshrc'
 alias code='nocorrect code'
+alias vi=`which nvim`
 
 # cdの後にlsを実行
 chpwd() { ls }
