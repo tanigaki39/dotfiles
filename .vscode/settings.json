@@ -1,0 +1,62 @@
+{
+  "editor.fontSize": 11,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnType": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.lineHeight": 1.25,
+  "terminal.integrated.fontWeight": "bold",
+  "editor.fontFamily": "SourceHanCodeJP-Regular, Menlo, Monaco, 'Courier New', monospace",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.visualstar": true,
+  "vim.useCtrlKeys": true,
+  "debug.console.fontSize": 14,
+  "eslint.options": {
+    "configFile": ".eslintrc.js"
+  },
+  "eslint.autoFixOnSave": true,
+  "pugbeautify.omitDiv": true,
+  "liveServer.settings.root": "/src",
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "puglint.enable": true,
+  "puglint.config": {
+    "extends": "clock"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "eslint.lintTask.enable": true,
+  "terraform.indexing": {
+    "enabled": true,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
+  },
+  "terraform.languageServer": {
+    "enabled": false,
+    "args": []
+  },
+}
