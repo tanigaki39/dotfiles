@@ -1,5 +1,6 @@
 # alias
 alias l 'ls'
+alias cl 'clear'
 
 # function
 function reload
