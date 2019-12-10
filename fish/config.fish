@@ -2,6 +2,9 @@
 alias l 'ls'
 alias cl 'clear'
 
+# paths
+set -x PATH $HOME/.nodebrew/current/bin $PATH
+
 # function
 function reload
   source ~/.config/fish/config.fish
