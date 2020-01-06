@@ -4,4 +4,8 @@
     "key": "cmd+,",
     "command": "workbench.action.openSettingsJson"
   },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
 ]
