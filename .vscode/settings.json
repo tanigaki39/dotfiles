@@ -13,7 +13,6 @@
   "editor.fontFamily": "SourceHanCodeJP-Regular, Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "git.autofetch": true,
-  "editor.formatOnSave": true,
   "vim.easymotion": true,
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
@@ -68,4 +67,8 @@
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "html.mirrorCursorOnMatchingTag": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
 }
