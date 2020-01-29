@@ -1,6 +1,7 @@
 # alias
 alias l 'ls'
 alias cl 'clear'
+alias g 'git'
 
 # paths
 set -x PATH $HOME/.nodebrew/current/bin $PATH
@@ -21,3 +22,4 @@ end
 # appearance
 set -g theme_display_date no
 set -g theme_color_scheme dracula
+
