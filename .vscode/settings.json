@@ -13,7 +13,6 @@
   "editor.fontFamily": "SourceHanCodeJP-Regular, Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "git.autofetch": true,
-  "editor.formatOnSave": true,
   "vim.easymotion": true,
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
@@ -25,7 +24,7 @@
   },
   "eslint.autoFixOnSave": true,
   "pugbeautify.omitDiv": true,
-  "liveServer.settings.root": "/src",
+  "liveServer.settings.root": "/dist",
   "eslint.alwaysShowStatus": true,
   "eslint.packageManager": "yarn",
   "eslint.validate": [
@@ -62,5 +61,14 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "window.zoomLevel": 0,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "html.mirrorCursorOnMatchingTag": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
 }
