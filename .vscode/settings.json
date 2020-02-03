@@ -71,4 +71,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
+  "window.zoomLevel": 0,
 }

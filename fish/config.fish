@@ -5,6 +5,7 @@ alias g 'git'
 
 # paths
 set -x PATH $HOME/.nodebrew/current/bin $PATH
+set -x PATH $HOME/.anyenv/bin $PATH
 
 # function
 function reload
